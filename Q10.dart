@@ -1,5 +1,5 @@
 void main() {
-  // Teste das classes de pessoas
+  
   var fornecedor = Fornecedor(
     nome: 'Loja ABC',
     endereco: 'Rua Central',
@@ -21,7 +21,6 @@ void main() {
   );
   print(vendedor);
 
-  // Teste da hierarquia Animal
   var vet = Veterinario();
   var cachorro = Cachorro('Rex');
   var cavalo = Cavalo('Pé de Pano');
@@ -31,7 +30,6 @@ void main() {
   vet.examinar(cavalo);
   vet.examinar(gato);
 
-  // Teste do zoológico
   var zoo = Zoologico();
   zoo.percorrerJaulas();
 }
